@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.the4k.milkteashop.fragment.View_profileFragment">
+
+
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            tools:ignore="RtlHardcoded">
+
+            <ImageView
+                android:id="@+id/update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/edit_icon"
+                android:contentDescription="@string/todo" />
+
+        </RelativeLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="@string/name" />
+        </TableRow>
+
+            <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phone_no"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_922792"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"/>
+        </TableRow>
+
+            <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/address"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/surat"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"/>
+        </TableRow>
+
+
+
+        <TableRow/>
+
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/email"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/axar_gmail_com"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"/>
+        </TableRow>
+
+
+            <TableRow/>
+
+        </TableLayout>
+
+
+            </LinearLayout>
+
+</FrameLayout>

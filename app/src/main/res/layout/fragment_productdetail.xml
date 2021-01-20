@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ProductdetailFragment"
+    >
+
+    <TextView
+        android:id="@+id/click_review"
+        android:layout_width="313dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/design"
+        android:drawableLeft="@drawable/ic_info_outline_black_24dp"
+        android:drawablePadding="30dp"
+        android:text="View Product Review"
+        app:layout_constraintEnd_toEndOf="@+id/detail_desc"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/detail_desc"
+        app:layout_constraintTop_toBottomOf="@+id/detail_desc" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/detail_desc"
+        android:layout_width="343dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="8dp"
+        android:text="more text"
+        app:layout_constraintEnd_toEndOf="@+id/detail_pname"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/price_title"
+        app:layout_constraintTop_toBottomOf="@+id/price_title" />
+
+    <TextView
+        android:id="@+id/detail_pname"
+        android:layout_width="349dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:text="name"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image" />
+
+    <TextView
+        android:id="@+id/price_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Rs"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/detail_pname"
+        app:layout_constraintTop_toBottomOf="@+id/detail_pname" />
+
+    <TextView
+        android:id="@+id/detail_price"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="12dp"
+        android:text="500"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/detail_pname"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/price_title"
+        app:layout_constraintTop_toBottomOf="@+id/detail_pname" />
+
+    <Button
+        android:id="@+id/buy"
+        android:layout_width="321dp"
+        android:layout_height="63dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/cart_button_bg"
+        android:drawableRight="@drawable/cart_button_bg"
+        android:text="Buy Now"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/click_review" />
+
+    <TextView
+        android:id="@+id/p_id"
+        android:layout_width="5dp"
+        android:layout_height="0dp"
+        android:text=""
+        android:textSize="0sp"
+        tools:layout_editor_absoluteX="388dp"
+        tools:layout_editor_absoluteY="373dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="categories">Categories</string>
+    <string name="recent_views">Recent Views</string>
+    <string name="send">send</string>
+    <string name="redmi_note_4">Redmi Note 4</string>
+    <string name="_500">500</string>
+    <string name="product_name">product_name</string>
+
+    <string name="bags">bags</string>
+    <string name="view_review">View Review</string>
+    <string name="male">Male</string>
+    <string name="gender">Gender</string>
+    <string name="axar_gmail_com">Axar@gmail.com</string>
+    <string name="email">Email</string>
+    <string name="_395004"></string>
+    <string name="pincode">Pincode</string>
+    <string name="surat"></string>
+    <string name="_922792"></string>
+    <string name="phone_no">Phone No</string>
+    <string name="axar">Axar</string>
+
+    <string name="address">Address</string>
+    <string name="name">Name</string>
+
+    <string name="select">Select</string>
+    <string name="upload">Upload</string>
+    <string name="todo">TODO</string>
+    <string name="my_order_histroy">My Order histroy</string>
+</resources>

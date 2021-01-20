@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.the4k.milkteashop.fragment.ProfileFragment">
+
+
+
+
+            <!--profile image-->
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+
+    </RelativeLayout>
+
+            <!--name -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+            <!--Phone Number-->
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!--Address-->
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!--Pincode-->
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" />
+
+
+            <!--verify email address-->
+
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="email address"
+        android:textSize="0sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/relativeLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/tv_unique"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="fdtrthrtthrh"
+        android:textSize="0sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="321dp"
+        android:layout_height="63dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/cart_button_bg"
+        android:drawableRight="@drawable/cart_button_bg"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_address" />
+
+    <EditText
+        android:id="@+id/et_address"
+        android:layout_width="321dp"
+        android:layout_height="63dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/edittext"
+        android:drawableRight="@drawable/edittext"
+        android:gravity="center"
+        android:hint="Address"
+
+        android:inputType="text"
+        android:maxLines="3"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@color/brown"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_phone" />
+
+    <EditText
+        android:id="@+id/et_phone"
+        android:layout_width="321dp"
+        android:layout_height="63dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/edittext"
+        android:drawableRight="@drawable/edittext"
+        android:gravity="center"
+
+        android:hint="Phone Number"
+        android:inputType="number"
+        android:maxLength="10"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@color/brown"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_user" />
+
+    <EditText
+        android:id="@+id/et_user"
+        android:layout_width="321dp"
+        android:layout_height="63dp"
+        android:layout_margin="10dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="62dp"
+        android:background="@drawable/edittext"
+        android:drawableRight="@drawable/edittext"
+        android:gravity="center"
+
+        android:hint="Name"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@color/brown"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_unique" />
+
+
+    <!--save button-->
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

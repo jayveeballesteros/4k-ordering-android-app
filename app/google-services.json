@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "472295564829",
+    "project_id": "k-milk-tea-shop",
+    "storage_bucket": "k-milk-tea-shop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472295564829:android:993187a2ab773bc0ed08f4",
+        "android_client_info": {
+          "package_name": "com.the4k.milkteashop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472295564829-ju2mshsgq938rsd0hass9fc18uunnaok.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.the4k.milkteashop",
+            "certificate_hash": "800bd91f4d4aec4676117ddd0872f28b9212ff42"
+          }
+        },
+        {
+          "client_id": "472295564829-f83u1dmdalhaf3nqjgm59n7u3r3sav5g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDxkYywkgfJU8Dgi6gy0JvYbzLnUwYW3Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472295564829-f83u1dmdalhaf3nqjgm59n7u3r3sav5g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

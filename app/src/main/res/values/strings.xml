@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">4K Milktea and Snacks</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">4K Milktea and Snacks</string>
+    <string name="nav_header_subtitle">Take a cup and forget about everything for a few minutes.</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Rs">₱</string>
+    <string name="Login">login</string>
+    <string name="categories">Categories</string>
+    <string name="recent_views">Recent Views</string>
+    <string name="send">send</string>
+    <string name="redmi_note_4">Redmi Note 4</string>
+    <string name="_500">500</string>
+    <string name="product_name">product_name</string>
+    <string name="bags">bags</string>
+    <string name="view_review">View Review</string>
+    <string name="male">Male</string>
+    <string name="gender">Gender</string>
+    <string name="axar_gmail_com">Axar@gmail.com</string>
+    <string name="email">Email</string>
+    <string name="_395004"></string>
+    <string name="pincode">Pincode</string>
+    <string name="surat"></string>
+    <string name="_922792"></string>
+    <string name="phone_no">Phone No</string>
+    <string name="axar">Axar</string>
+    <string name="address">Dagupan City</string>
+    <string name="name">Name</string>
+    <string name="select">Select</string>
+    <string name="upload">Upload</string>
+    <string name="todo">TODO</string>
+    <string name="my_order_histroy">My Order histroy</string>
+    <string-array name="quantity">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>more</item>
+
+    </string-array>
+</resources>

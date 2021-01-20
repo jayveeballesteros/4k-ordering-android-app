@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.the4k.milkteashop.fragment.UploadFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="20dp">
+
+        <Button
+            android:id="@+id/select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select"
+
+            android:drawableTop="@drawable/ic_add_black_24dp"
+            android:layout_gravity="center_horizontal"
+            style="?android:attr/buttonBarButtonStyle" />
+
+            <Button
+                android:id="@+id/upload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/upload"
+
+                android:drawableTop="@drawable/ic_arrow_upward_black_24dp"
+                android:layout_marginStart="20dp"
+                android:layout_gravity="center_horizontal"
+                style="?android:attr/buttonBarButtonStyle" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name"
+            android:layout_margin="10dp"
+            android:autofillHints=""
+            android:inputType="text"
+            tools:ignore="TextFields" />
+
+        <ImageView
+            android:id="@+id/viewImage"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/todo"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+</FrameLayout>
