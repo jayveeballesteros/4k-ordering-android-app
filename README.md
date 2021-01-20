@@ -1,7 +1,7 @@
-# ordering
-all crud operation using volley library for ordering cart application.
-send data to server - user registation /login
-save data to sharedpreference
-user can buy product
-user can add to cart item
-user can rating of buying product
+# Ordering System for 4K Milktea and Snacks
+
+Android app for 4k Milktea and Snacks Shop with material design pattern using MySQL and PHP. All crud operation using volley library.
+
+User can browse Menu
+User can buy product
+User can rate the product and give feedback.
